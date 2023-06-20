@@ -1,0 +1,241 @@
+*body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  background-color: #E3FDFD;
+  
+}
+html {
+  background-color: #E3FDFD;
+  padding: 0;
+}
+p {
+  font-family: 'Caladea', serif;
+}
+
+
+/* nav bar */
+.navbar {
+    background-color: #151c6b;
+  }
+  .navbar-brand,
+  .navbar,
+  .navbar-nav,
+  .nav-item{
+    padding-left: 30px;
+  }
+
+  /* backgaround image */
+  .BGIMG1{
+    width: 101% ;
+    height: auto;
+  }
+
+  /* title */
+  .title1,.title2,.title3,.title4{
+    padding-top: 2rem;
+  }
+
+ /* ABOUT ME INFO */
+.para1,.para2{
+  
+    opacity:0.6;
+    padding-left: 10%;
+  }
+.para1{
+  padding-top: 25%;
+}
+.aboutme{
+  width: 100%;
+  height: auto;
+  background-color: #E3FDFD;
+}
+.abtimg1{
+padding-left: 10%;
+padding-top: 5%;
+}
+.IMG1{
+  box-shadow: 5px 5px 2px;
+}
+
+/* GOAL */
+.goals{
+  width: 100%;
+  height: auto;
+  background-color: #E3FDFD;
+}
+.cp{
+  margin-right: 50%;
+}
+/* gifs */
+.gif1 {
+  width: 250px;
+  height: 250px;
+}
+.gif2 {
+  width: 250px;
+  height: 250px;
+}
+.gif3 {
+  width: 250px;
+  height: 250px;
+}
+@media (max-width: 250px) {
+  .gif1 {
+    width: 100%;
+    height: auto;
+  }
+  .gif2 {
+    width: 100%;
+    height: auto;
+  }
+  .gif3 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* project */
+.project{
+  margin-top: 0%;
+  background-color: #E3FDFD;
+}
+.slides{
+  padding: 50px;
+}
+.contactme{
+  background-color: #E3FDFD;
+}
+.one{
+  padding:50px
+}
+
+/* footer */
+footer {
+  background: #151c6b;
+  padding: 50px 0;
+  color: #fff;
+  width: 101%;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-section {
+  flex: 1;
+  margin: 0 30px;
+}
+
+.logo-text {
+  font-size: 2rem;
+}
+
+.logo-text span {
+  color: #5a5a5a;
+} 
+
+.contact span {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.6rem;
+}
+
+.contact i {
+  color: #5a5a5a;
+  margin-right: 0.6rem;
+}
+
+.links ul li {
+  list-style: none;
+  margin-bottom: 0.6rem; 
+}
+
+.links ul li a {
+  font-size: medium;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-form .text-input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  border: none;
+  margin-bottom: 0.8rem;
+}
+
+.contact-form .contact-btn {
+  display: block;
+  width: max-content;
+  padding: 0.6rem 1rem;
+  border: none;
+  background-color: #E3FDFD;
+  color: black;
+  border-radius: 0.3rem;
+}
+
+.contact-form .contact-btn:hover {
+  opacity: 0.9;
+}
+
+.footer-bottom {
+  background: #151c6b; 
+  text-align: center;
+  padding: 1.2rem 0;
+}
+.social{
+  color: #fff;
+  height: 2rem;
+  width: 2rem;
+}
+
+/* Responsive */ 
+@media (max-width:700px) {
+  .footer-content {
+      flex-direction: column;
+  }
+}
+
+/* text  */
+@media (max-width: 575px) {
+  .mytxt {
+    font-size: 1.5rem;
+  }
+  .LIST1{
+    font-size: 1.2rem;
+  }
+  .ptitle{
+    font-size: 1rem;
+  }
+}
+
+@media (min-width:576px) and (max-width: 899px) {
+  .ptitle{
+    font-size: 1.7rem;
+  }
+}
+
+
+@media (min-width:900px) and (max-width: 1099px) {
+  .mytxt {
+    font-size: 1.5rem;
+  }
+  .LIST1 {
+    font-size: 1.5rem;
+  }
+  .ptitle{
+    font-size: 2.3rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .mytxt {
+    font-size: 1.6rem;
+  }
+  .LIST1 {
+    font-size: 1.8rem;
+  }
+  .ptitle{
+    font-size: 4rem;
+  }
+}
